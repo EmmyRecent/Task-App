@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task App</title>
+
+    <!-- this is the favicon link  -->
+    <link rel="icon" type="images/x-icon" href="images/Fav-icon.png">
+
+    <!-- this is the box-icon link  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- this is the css link  -->
+    <link rel="stylesheet" href="task app.css">
+</head>
+<body>
+
+    <!-- this is the header section  -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Remember<span>That</span></a>
+
+            <!-- menu-icon  -->
+            <div class='bx bx-menu' id="menu-icon"></div>   
+
+            <!-- Navbar  -->
+            <nav>
+                <!-- close-icon  -->
+                <div class="bx bx-x" id="close-icon"></div>
+
+                <!-- there are two navigation here: primary-nav and secondary-nav  -->
+                <ul class="primary-nav">
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="go-premuim-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- this is the hero section  -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Nitty &amp; Gritty!</p>
+                <h1>A Task App That Doesn't Stink</h1>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Try for free</a>
+                    <a href="#" class="watch-video-cta"> 
+                        <img src="images/watch.svg" alt="#">Watch a video 
+                    </a>
+                </div>
+            </div>
+
+           <img src="images/illustration.svg" alt="illustration" class="hero-img"> 
+        </div>
+    </section>
+
+    <!-- this is the features section  -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions Upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other Awesome Features</li>
+            </ul>
+
+            <img src="images/holding-phone.jpg" alt="Man holding phone">
+        </div>
+    </section>
+
+    <!-- this is the testimonials section  -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/person.jpg" alt="person">
+
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium facere fugiat corporis ex distinctio, ad porro rerum. Quo ut possimus quos suscipit recusandae corrupti non id error autem eaque!
+                    </blockquote>
+                    <cite>
+                        - Jane Doe
+                    </cite>
+                </li>
+
+                <li>
+                    <img src="images/person.jpg" alt="person">
+
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium facere fugiat corporis ex distinctio, ad porro rerum. Quo ut possimus quos suscipit recusandae corrupti non id error autem eaque!
+                    </blockquote>
+                    <cite>
+                        - Jane Doe
+                    </cite>
+                </li>
+
+                <li>
+                    <img src="images/person.jpg" alt="person">
+
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium facere fugiat corporis ex distinctio, ad porro rerum. Quo ut possimus quos suscipit recusandae corrupti non id error autem eaque!
+                    </blockquote>
+                    <cite>
+                        - Jane Doe
+                    </cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- this is the contact section  -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+
+                <form action="#">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="Send message">
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52860.74622544705!2d-118.4557452323895!3d34.10034974767365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc35fbd217ef%3A0xcf1ef9352700d95c!2sBeverly%20Hills%2C%20CA%2090210%2C%20USA!5e0!3m2!1sen!2suk!4v1691655904609!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript link  -->
+    <script src="task app.js"></script>
+</body>
+</html>
